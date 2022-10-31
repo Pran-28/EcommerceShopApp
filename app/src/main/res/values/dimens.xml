@@ -2,5 +2,7 @@
 <resources>
 
     <dimen name="splash_title_size">35sp</dimen>
+    <dimen name="button_bg_radius">10dp</dimen>
+    <dimen name="email_text">35sp</dimen>
 
 </resources>
