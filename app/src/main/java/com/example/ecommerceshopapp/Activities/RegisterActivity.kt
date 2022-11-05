@@ -6,16 +6,14 @@ import android.os.Bundle
 import android.view.View
 import com.example.ecommerceshopapp.R
 
-class LoginActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_register)
     }
 
-    fun register_here(view: View) {
-
-        val intent = Intent(applicationContext,RegisterActivity::class.java)
+    fun login_here(view: View) {
+        val intent = Intent(applicationContext, LoginActivity::class.java)
         startActivity(intent)
-
     }
 }
