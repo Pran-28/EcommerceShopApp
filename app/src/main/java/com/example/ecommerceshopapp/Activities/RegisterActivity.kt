@@ -15,5 +15,6 @@ class RegisterActivity : AppCompatActivity() {
     fun login_here(view: View) {
         val intent = Intent(applicationContext, LoginActivity::class.java)
         startActivity(intent)
+        finish()
     }
 }
