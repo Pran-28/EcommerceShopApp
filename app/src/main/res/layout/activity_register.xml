@@ -11,6 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,7 +23,7 @@
             android:layout_height="wrap_content"
             android:text="@string/create_account_text"
             android:textAlignment="center"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:textSize="30sp"
             android:textColor="@color/black"
             android:textStyle="bold" />
@@ -41,8 +42,11 @@
         android:textColorHint="@color/black"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintRight_toRightOf="parent">
+
+        <requestFocus/>
+
+    </com.example.ecommerceshopapp.utils.MSPEditText>
 
     <com.example.ecommerceshopapp.utils.MSPEditText
         android:id="@+id/last_name"
